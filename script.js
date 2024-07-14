@@ -53,3 +53,11 @@ abd(12)
 
 const acd = ()=>20;
 console.log(acd()+1);
+
+//when in arrow implicit we use bracket
+
+const ab =()=>{
+    return "Harsh";
+};
+
+console.log("hey ", ab());
