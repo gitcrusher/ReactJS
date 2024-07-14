@@ -73,5 +73,8 @@ console.log(ac());
 // both are used on an array and to perform 
 var arr = [1,2,3,4,5];
 //foreach ke andar aata hai function and function ke andae ata hai value
-const ans = arr.map(val=>val*2);
+const ans = arr.map(val=>val*12);
 //NOTE - in map function RETURN is important.
+
+var r = [11,21,3,2,444,4,5,45654,6,6,7633332,6,6,,634,5,34,3];
+const answer = r.map(elem=> elem>5 ? elem%2:elem);
