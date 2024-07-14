@@ -23,3 +23,9 @@ var o = {name: "harsh", social:{
 };
 
 const{sec} = o.social.facebook; // here as var o is an object we have used curly bars if it would be an array we would be using the [] brackets.
+
+// for arrays '''''''''''
+
+var hi =[12,function(){},13];
+var [first,two]= hi;
+var[a,,c] = hi;
