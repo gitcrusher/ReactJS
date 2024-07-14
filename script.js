@@ -61,3 +61,9 @@ const ab =()=>{
 };
 
 console.log("hey ", ab());
+
+//when we have to use object in aarow function explicit.
+
+const ac = ()=> ({name: "aaa", age: 12})
+
+console.log(ac());
