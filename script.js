@@ -29,3 +29,27 @@ const{sec} = o.social.facebook; // here as var o is an object we have used curly
 var hi =[12,function(){},13];
 var [first,two]= hi;
 var[a,,c] = hi;
+
+// Arrow Fuction.................
+
+const abcd=()=>{
+    console.log("abcd");
+}
+abcd();
+
+
+//Arrow function with one parameters.
+
+const abd =val => {
+    console.log(val);
+}
+
+
+abd(12)
+
+
+
+//Arrow function with implicit return;
+
+const acd = ()=>20;
+console.log(acd()+1);
