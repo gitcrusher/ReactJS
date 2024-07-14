@@ -67,3 +67,11 @@ console.log("hey ", ab());
 const ac = ()=> ({name: "aaa", age: 12})
 
 console.log(ac());
+
+
+//map And filter 
+// both are used on an array and to perform 
+var arr = [1,2,3,4,5];
+//foreach ke andar aata hai function and function ke andae ata hai value
+const ans = arr.map(val=>val*2);
+//NOTE - in map function RETURN is important.
